@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "jenoxxclient",
+	"version": "${version}",
+	"name": "JenoXx Client",
+	"description": "Leichter Client-Mod mit HUD, Zoom und Fullbright.",
+	"authors": ["JenoXx"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["dev.jenoxx.client.JenoXxClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
